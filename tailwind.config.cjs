@@ -15,7 +15,12 @@ module.exports = {
 				violet: {
 					500: '#6246EA',
 				},
-			}
+			},
+			fontSize: {
+				lg: 20,
+				md: 16,
+				sm: 14,
+			},
 		},
 	},
 	plugins: [],
