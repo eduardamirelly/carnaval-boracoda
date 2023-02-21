@@ -1,3 +1,5 @@
+import { Text } from "../../components/Text";
+
 export function HeroSection() {
   return (
     <section id="hero" className="min-h-[532px] bg-[#F8F8FF]">
@@ -5,6 +7,9 @@ export function HeroSection() {
       <h1>
         Encontre os <span>melhores blocos</span> de carnaval de 2023
       </h1>
+      <Text>
+        Testando...
+      </Text>
 
       <div>
         <input type="search" name="" id="" />
