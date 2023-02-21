@@ -21,6 +21,9 @@ module.exports = {
 				md: 16,
 				sm: 14,
 			},
+			fontFamily: {
+				sans: 'Roboto, sans-serif',
+			},
 		},
 	},
 	plugins: [],
