@@ -15,7 +15,7 @@ export function Button({ children, color = 'violet', className }: ButtonProps) {
           'px-8 py-3 uppercase font-bold text-sm rounded cursor-pointer transition-colors', 
           {
             'bg-violet-500 text-white hover:bg-violet-600': color == 'violet',
-            'bg-white text-violet-500 hover:bg-black-300': color === 'white',
+            'bg-white text-violet-500 hover:bg-gray-400': color === 'white',
           }, 
           className
         )
