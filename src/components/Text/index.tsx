@@ -15,7 +15,7 @@ export function Text({ size = 'md', children, asChild = false, className }: Text
   return (
     <Comp className={
       clsx(
-        'text-black-800', 
+        'text-gray-800', 
         {
           'text-lg': size == 'lg',
           'text-md': size == 'md',
