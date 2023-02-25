@@ -1,5 +1,6 @@
 import { MagnifyingGlass } from "phosphor-react";
 import { Button } from "../../components/Button";
+import { SelectInput } from "../../components/SelectInput";
 
 export function HeroSection() {
   return (
@@ -17,13 +18,11 @@ export function HeroSection() {
       </div>
 
       <div className="flex items-center justify-between gap-6 bg-white w-4/6 p-10 rounded-lg border border-gray-200">
-        <div className="bg-gray-300 flex gap-1 px-3 py-3 rounded">
+        <div className="bg-gray-300 flex-1 flex gap-1 px-3 py-3 rounded">
           <MagnifyingGlass size={24} className="text-red-500" />
-          <input className="min-w-[200px] flex-1 bg-gray-300 outline-none text-sm" type="search" name="" id="" />
+          <input className="w-full bg-gray-300 outline-none text-sm" type="search" name="" id="" />
         </div>
-        <select className="flex-1">
-          <option value="1">1</option>
-        </select>
+        <SelectInput />
         <Button>
           Buscar agora
         </Button>
