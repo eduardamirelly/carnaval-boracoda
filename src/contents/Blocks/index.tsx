@@ -18,10 +18,10 @@ export function Blocks() {
       </header>
 
       <div className="flex justify-between gap-8 flex-wrap">
-        <Block />
-        <Block />
-        <Block />
-        <Block />
+        <Block imgSrc="example-block.jpg" title="Title example" description="description example" location="São Paulo - SP" />
+        <Block imgSrc="example-block.jpg" title="Title example" description="description example" location="São Paulo - SP" />
+        <Block imgSrc="example-block.jpg" title="Title example" description="description example" location="São Paulo - SP" />
+        <Block imgSrc="example-block.jpg" title="Title example" description="description example" location="São Paulo - SP" />
       </div>
     </section>
   )
