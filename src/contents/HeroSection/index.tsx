@@ -18,7 +18,7 @@ export function HeroSection() {
       </div>
 
       <div className="flex items-center justify-between gap-6 bg-white w-4/6 p-10 rounded-lg border border-gray-200">
-        <div className="bg-gray-300 flex-1 flex gap-1 px-3 py-3 rounded">
+        <div className="min-w-[200px] bg-gray-300 flex-1 flex gap-1 p-3 rounded">
           <MagnifyingGlass size={24} className="text-red-500" />
           <input className="w-full bg-gray-300 outline-none text-sm" type="search" name="" id="" />
         </div>
