@@ -12,7 +12,7 @@ export function HeroSection() {
         </h1>
       </header>
 
-      <div className="absolute inset-0 flex justify-between item -z-10">
+      <div className="absolute inset-0 hidden lg:flex justify-between w-full -z-10">
         <img className="object-cover max-h-[330px]" src="/assets/ilustra-01.svg" />
         <img className="self-end object-cover max-h-[330px]" src="/assets/ilustra-02.svg" />
       </div>
