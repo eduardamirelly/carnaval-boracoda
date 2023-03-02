@@ -1,5 +1,6 @@
 import { Block } from "../../components/Block";
 import { Button } from "../../components/Button";
+import { blocks } from "../../utils/data";
 
 export function Blocks() {
   return (
@@ -18,10 +19,14 @@ export function Blocks() {
       </header>
 
       <div className="flex justify-between gap-8 flex-wrap">
-        <Block imgSrc="example-block.jpg" title="Title example" description="description example" location="São Paulo - SP" />
-        <Block imgSrc="example-block.jpg" title="Title example" description="description example" location="São Paulo - SP" />
-        <Block imgSrc="example-block.jpg" title="Title example" description="description example" location="São Paulo - SP" />
-        <Block imgSrc="example-block.jpg" title="Title example" description="description example" location="São Paulo - SP" />
+        {blocks.map((block) => (
+          <Block 
+            imgSrc="example-block.jpg" 
+            title={block.title}
+            description={block.description} 
+            location={block.location}
+          />
+        ))}
       </div>
     </section>
   )
