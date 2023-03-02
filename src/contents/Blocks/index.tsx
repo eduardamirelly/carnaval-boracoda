@@ -18,7 +18,7 @@ export function Blocks() {
         </div>
       </header>
 
-      <div className="flex justify-between gap-8 flex-wrap">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {blocks.map((block) => (
           <Block 
             imgSrc="example-block.jpg" 

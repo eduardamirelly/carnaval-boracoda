@@ -10,7 +10,7 @@ interface BlockProps {
 
 export function Block({ imgSrc, title, description, location }: BlockProps) {
   return (
-    <div className="border border-gray-200 rounded-lg w-[384px] overflow-hidden">
+    <div className="border border-gray-200 rounded-lg max-w-[384px] overflow-hidden mx-auto">
       <div className="max-h-[153px]">
         <img src={`/assets/${imgSrc}`} alt={imgSrc} />
       </div>
