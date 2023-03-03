@@ -22,7 +22,10 @@ export function HeroSection() {
           <MagnifyingGlass size={24} className="text-red-500" />
           <input className="w-full bg-gray-300 outline-none text-sm" type="search" name="" id="" />
         </div>
-        <SelectInput />
+        <SelectInput 
+          options={["Option1", "Option2"]} 
+          placeholder="Select" 
+        />
         <Button className="w-full lg:w-auto">
           Buscar agora
         </Button>
