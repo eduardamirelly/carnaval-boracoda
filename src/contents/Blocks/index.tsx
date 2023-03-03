@@ -5,7 +5,7 @@ import { blocks } from "../../utils/data";
 export function Blocks() {
   return (
     <section className="px-6 md:px-32 py-24">
-      <header className="flex justify-between items-center flex-wrap mb-10">
+      <header className="flex justify-between items-center flex-wrap mb-10 gap-2">
         <h2 className="font-bold text-xl">Blocos recomendados</h2>
 
         <div className="flex gap-1 items-center border border-gray-200 rounded p-2">
